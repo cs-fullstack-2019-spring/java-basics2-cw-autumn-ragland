@@ -6,8 +6,8 @@ public class Main {
 //        ex1();
 //        ex2();
 //        ex3();
-//        ex4();
-        ex5();
+        ex4();
+//        ex5();
 //        ch1();
     }
 
@@ -48,7 +48,8 @@ public class Main {
 //    end the program and print Sorry! Out of guesses :-(
     private static void ex4(){
         Scanner read = new Scanner(System.in);
-        String secret = "password";
+        System.out.println("Enter a Secret Word:");
+        String secret = read.nextLine();
         int count = 0;
         boolean flag;
         do{
@@ -99,6 +100,6 @@ public class Main {
             System.out.println(" ");
             starCount++;
         }
-
     }
+
 }
